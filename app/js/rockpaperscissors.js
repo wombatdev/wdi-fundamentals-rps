@@ -119,7 +119,7 @@ function playToX() {
 		    console.log("Final score: You: "+playerWins+", Computer: "+computerWins+"!");
 		    break;
 		}
-    	console.log(playerWins+", "+computerWins);
+    	console.log("Player: "+playerWins+", Computer: "+computerWins);
     	if (max >= 3 && playerWins === max-1 && computerWins == max-1 && closeCounter === 0) {
     		console.log("It's coming down to the wire!");
     		var tension = 1;
